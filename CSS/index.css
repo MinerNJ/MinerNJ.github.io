@@ -2,11 +2,16 @@ h2{
 	background-color: red;
 }
 
-#cat {
-	font-size: 3rem;
+.container {
+    display: flex;
+    margin: 2rem auto;
+    padding: 11px;
+    max-width: 1000px;
 }
-
-.sub-title {
-	background-color: green;
-	color: yellow;
+.flexItem {
+    margin-left: 5px;
+    padding: 11px;
+}
+.flexItem:first-child {
+    margin: 0;
 }
