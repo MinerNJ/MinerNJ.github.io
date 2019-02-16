@@ -2,43 +2,69 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="./CSS/index.css">
-	<title>Nicholas J. Miner</title>
+  <title>Nicholas J. Miner</title>
 </head>
 <body>
-  <img src = "./HTML/NJM.png" />
-  <h1> Nicholas J. Miner </h1>
-  <h2> Data Science | Full-Stack Development </h2>
-  <h4> MinerNicholasJ@Gmail.com | 937-542-1406
-  <h3> About Me: </h3>
-	<nav>
-          <ul>
-            <li>
-            	<a href="https://linkedin.com/in/nicholas-miner" target="_blank">LinkedIn</a>
-            </li>
-            <li>
-              <a href="https://github.com/MinerNJ" target="_blank">Github</a>
-            </li>
-            <li>
-              <a href="https://osu.joinhandshake.com/users/11556950" target="_blank">Handshake</a>
-            </li>
-          </ul>
-        </nav>
-    <p>Hi! My name is Nick Miner and this is my page. Born in Dayton, Ohio, I served as a Sergeant in the USMC, earned a BS degree from The Ohio State University and attended a Full-Stack Development bootcamp for software development. I live with my girlfriend, our dog and cat; I try to keep my personal interests as varied as my professional ones. I enjoy building PC's, rock climbing and learning new programming languages!
+  
+<header class="topHeader">
+    <nav class="nav">
+    <ul class = "topNavLinks">
 
-    <h3> Skills </h3>
-    <h4> Data Science </h4>
-    <p>  Data Analysis / Visualization, Predictive Modeling, Machine Learning, Causal Inference, R / RStudio. </p>
-    <h4> Full Stack Development</h4>
-    <p> Java / JavaScript, Spring, OOP, HTML5, CSS3, Flexbox, SQL, Git, Flexbox, TDD. </p>
+      <a class="topNavLinks" href="mailto: minernicholasj@gmail.com"target="_blank"><img src = "./HTML/gmail.png"></a>
+
+      <a class="topNavLinks" href="https://linkedin.com/in/nicholas-miner" target="_blank"><img src = "./HTML/in2.png"></a>
+           
+      <a class="topNavLinks" href="https://github.com/MinerNJ" target="_blank"><img src = "./HTML/github.png"></a>
+          
+        </ul>
+        </nav>
+
+  </header>
+
+ 
+  <section class="heroImage">
+    <figure class="profilePic"><img src = "./HTML/NJM.png" /></figure>
+    <div class="textAdjustment">
+      <h1 class="headerText"> Nicholas J. Miner </h1>
+      <h3 class="headerSubText"> Data Science | Full-Stack Development | Statistical Modeling </h3>
+      </div>
+
+ </section>
+
+  <div class = "bodyContainer">
+      <article class="flexArticles">
+        <header>
+          <h3>About Me: </h3>
+        </header>
+        <section>
+          <p>Hi! My name is Nick Miner and this is my page. Born in Dayton, Ohio, I served as a Sergeant in the USMC, earned a BS degree from The Ohio State University and attended a Full-Stack Development bootcamp for software development. I live with my girlfriend, our dog and cat; I try to keep my personal interests as varied as my professional ones. I enjoy building PC's, rock climbing and learning new programming languages!</p>
+        </section>
+      </article>
+      <article class="flexArticles">
+        <header>
+          <h3>Skills: </h3>
+        </header>
+        <section>
+          <h4> Data Science </h4>
+            <p> Data Analysis / Visualization, Predictive Modeling, Machine Learning, Causal Inference, R / RStudio. </p>
+        </section>
+        <section>
+           <h4> Full Stack Development</h4>
+              <p> Java / JavaScript, JSON, AJAX, Spring, OOP, HTML5, CSS3, SQL, Git, TDD. </p>
+        </section>
+      </article>    
+  
+</div>
+</div>
 
     <h2>Projects</h2>
 
-    <div class="container">
+    <div class="projectContainer">
     <div class="flexItem flexItem--1">flex item 1</div>
     <div class="flexItem flexItem--2">flex item 2</div>
     <div class="flexItem flexItem--3">flex item 3</div>
-    <div class="flexItem flexItem--4">flex item 4</div>
-    <div class="flexItem flexItem--5">flex item 5</div>
+
 </div>
+
 </body>
 </html>
