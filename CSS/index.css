@@ -97,12 +97,12 @@ a{
     width: 100%;
 	grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 1rem;
-    	background-color: mintcream; 
+    background-color: mintcream; 
 
 }
 
 footer{
-	background: linear-gradient(to bottom, mintcream, paleturquoise);
+	background: linear-gradient(to bottom, mintcream, turquoise);
 	background-size: cover;
 	display:flex;
   	justify-content: flex-end;
