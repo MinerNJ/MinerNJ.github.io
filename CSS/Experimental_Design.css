@@ -1,0 +1,251 @@
+@media all and (max-width: 700px) {
+    article {
+        grid-column: 1 / 4;
+    }
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+}
+
+.ed-background-div {
+    background-image: linear-gradient(to bottom left, white, darkslategray, indianred, darkred);
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.ed-dropbtn {
+    background-color: indianred;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+}
+
+.ed-dropdown {
+    position: fixed;
+    display: inline-block;
+    left: 0%;
+    z-index: 1;
+}
+
+.ed-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: indianred;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 25px;
+}
+
+.ed-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.ed-dropdown-content a:hover {
+    background-color: #ddd;
+    border-radius: 25px;
+}
+
+.ed-dropdown:hover .ed-dropdown-content {
+    display: block;
+}
+
+.ed-dropdown:hover .ed-dropbtn {
+    background-color: indianred;
+    cursor: pointer;
+}
+
+
+.ed-dropbtn-right {
+    background-color: indianred;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+}
+
+.ed-dropdown-right {
+    position: fixed;
+    display: inline-block;
+    right: 0%;
+    z-index: 1;
+}
+
+.ed-dropdown-content-right {
+    display: none;
+    position: relative;
+    background-color: indianred;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 25px;
+}
+
+.ed-dropdown-content-right a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.ed-dropdown-content-right a:hover {
+    background-color: #ddd;
+    border-radius: 25px;
+}
+
+.ed-dropdown-right:hover .ed-dropdown-content-right {
+    display: block;
+}
+
+.ed-dropdown-right:hover .ed-dropbtn-right {
+    background-color: indianred;
+    cursor: pointer;
+}
+
+.ed-projects-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    justify-content: center;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.ed-text-box-1{
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 1; 
+    margin-top: 6%;
+}
+
+.ed-grid-div-1{
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 2/4;
+    background-image: url(/public/experimental_design/vr_setup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 80%;
+    border-style: solid;
+    height: 50vh;
+}
+
+.ed-grid-div-1:hover{ 
+    animation: pulse 3s infinite;
+    animation-timing-function: linear;
+}
+
+.ed-text-box-2{
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 1; 
+    margin-top: 6%;
+}
+
+.ed-grid-div-2{
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 2/4; 
+    background-image: url(/public/experimental_design/docker_app.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    border-style: solid;
+    height: 50vh;
+}
+
+.ed-grid-div-2:hover{ 
+    animation: pulse 3s infinite;
+    animation-timing-function: linear;
+}
+
+.ed-text-box-3{
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 4; 
+}
+
+.ed-grid-div-3{
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 5/8; 
+    background-image: url(/public/experimental_design/pc_pic.jpg);
+    background-position-y: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid;
+    height: 50vh;
+}
+
+.ed-grid-div-3:hover{ 
+    animation: pulse 3s infinite;
+    animation-timing-function: linear;
+}
+
+.ed-text-box-4{
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 4; 
+}
+
+.ed-grid-div-4{
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 5/8; 
+    background-image: url(/public/experimental_design/AWS_Horizontal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 5%;
+    border-style: solid;
+    height: 50vh;
+}
+
+.ed-grid-div-4:hover{ 
+    animation: pulse 3s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1);
+    100% { transform: scale(1); }
+  }
+}
+
+.ed-descriptions{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px indianred;
+}
+
+.ed-images-href {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.ed-textBlock{
+    font-size: 15px;
+    margin-top: 0;
+}
+
+h3 {
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    font-size: calc(1rem + 1vw);
+    margin-bottom: 0;
+}
+

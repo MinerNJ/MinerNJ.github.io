@@ -1,0 +1,288 @@
+@media all and (max-width: 700px) {
+    article {
+        grid-column: 1 / 4;
+    }
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+}
+
+.ds-background-div {
+    background-image: linear-gradient(skyblue,beige, darkorange, beige, skyblue);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.ds-dropbtn {
+    background-color: darkorange;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+}
+
+.ds-dropdown {
+    position: fixed;
+    display: inline-block;
+    left: 0%;
+    z-index: 1;
+}
+
+.ds-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: darkorange;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 25px;
+}
+
+.ds-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.ds-dropdown-content a:hover {
+    background-color: #ddd;
+    border-radius: 25px;
+}
+
+.ds-dropdown:hover .ds-dropdown-content {
+    display: block;
+}
+
+.ds-dropdown:hover .ds-dropbtn {
+    background-color: darkorange;
+    cursor: pointer;
+}
+
+
+.ds-dropbtn-right {
+    background-color: darkorange;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+
+}
+
+.ds-dropdown-right {
+    position: fixed;
+    display: inline-block;
+    right: 0%;
+    z-index: 1;
+}
+
+.ds-dropdown-content-right {
+    display: none;
+    position: relative;
+    background-color: darkorange;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 25px;
+}
+
+.ds-dropdown-content-right a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.ds-dropdown-content-right a:hover {
+    background-color: #ddd;
+    border-radius: 25px;
+}
+
+.ds-dropdown-right:hover .ds-dropdown-content-right {
+    display: block;
+}
+
+.ds-dropdown-right:hover .ds-dropbtn-right {
+    background-color: darkorange;
+    cursor: pointer;
+}
+
+.ds-projects-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    justify-content: center;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.text-box-1{
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 1; 
+    margin-top: 6%;
+}
+
+.grid-div-1{
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 2/4;
+    background-image: url(/public/data_science/pred_plot1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 80%;
+    border-style: solid;
+    height: 50vh;
+}
+
+.grid-div-1:hover{
+    animation: wiggle 500ms infinite;
+    animation-timing-function: linear;
+}
+
+.text-box-2{
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 1;  
+    margin-top: 6%;
+}
+
+.grid-div-2{
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 2/4; 
+    background-image: url(/public/data_science/decision_trees.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    border-style: solid;
+    height: 50vh;
+}
+
+.grid-div-2:hover{
+    animation: wiggle 500ms infinite;
+    animation-timing-function: linear;
+}
+
+.text-box-3{
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 4; 
+}
+
+.grid-div-3{
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 5/8; 
+    background-image: url(/public/data_science/ODVisual.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid;
+    height: 50vh;
+}
+
+.grid-div-3:hover{
+    animation: wiggle 500ms infinite;
+    animation-timing-function: linear;
+}
+
+.text-box-4{
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 4; 
+}
+
+.grid-div-4{
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 5/8; 
+    background-image: url(/public/data_science/ACAP_CompVision_Moment.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 5%;
+    border-style: solid;
+    height: 50vh;
+}
+
+.grid-div-4:hover{
+    animation: wiggle 500ms infinite;
+    animation-timing-function: linear;
+}
+
+.text-box-5{
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 8; 
+}
+
+.grid-div-5{
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 9/12; 
+    background-image: url(/public/data_science/MLinR_Pic.png);
+    background-position: 15% 60%;
+    border-style: solid;
+    height: 50vh;
+}
+
+.grid-div-5:hover{
+    animation: wiggle 500ms infinite;
+    animation-timing-function: linear;
+}
+
+.text-box-6{
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 8; 
+}
+
+.grid-div-6{
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 9/12; 
+    background-image: url(/public/data_science/SQL-Pic.png);
+    border-style: solid;
+    height: 50vh;
+}
+
+.grid-div-6:hover{
+    animation: wiggle 500ms infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes wiggle{
+    0% { transform: translate(0px, 2px); }
+    50% { transform: translate(0px, -2px); }
+    100% { transform: translate(0px, 2px); }
+}
+
+.descriptions{
+    text-align: center;
+    text-shadow: 2px 2px darkorange;
+}
+
+.DS-images-href {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.ds-textBlock{
+    font-size: 15px;
+    margin-top: 0;
+}
+
+h3 {
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    font-size: calc(1rem + 1vw);
+    margin-bottom: 0;
+}

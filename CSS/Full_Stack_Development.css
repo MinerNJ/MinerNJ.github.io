@@ -1,0 +1,290 @@
+@media all and (max-width: 700px) {
+    article {
+        grid-column: 1 / 4;
+    }
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+}
+
+.fsd-background-div {
+    background-image: linear-gradient(to bottom right, #7FFFD4, #98F5FF, #D47FFF);
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.fsd-dropbtn {
+    background-color: #D47FFF;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+}
+
+.fsd-dropdown {
+    position: fixed;
+    display: inline-block;
+    left: 0%;
+    z-index: 1;
+}
+
+.fsd-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #D47FFF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 25px;
+}
+
+.fsd-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.fsd-dropdown-content a:hover {
+    background-color: #ddd;
+    border-radius: 25px;
+}
+
+.fsd-dropdown:hover .fsd-dropdown-content {
+    display: block;
+}
+
+.fsd-dropdown:hover .fsd-dropbtn {
+    background-color: #D47FFF;
+    cursor: pointer;
+}
+
+
+.fsd-dropbtn-right {
+    background-color: #D47FFF;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+
+}
+
+.fsd-dropdown-right {
+    position: fixed;
+    display: inline-block;
+    right: 0%;
+    z-index: 1;
+}
+
+.fsd-dropdown-content-right {
+    display: none;
+    position: relative;
+    background-color: #D47FFF;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 25px;
+}
+
+.fsd-dropdown-content-right a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.fsd-dropdown-content-right a:hover {
+    background-color: #ddd;
+    border-radius: 25px;
+}
+
+.fsd-dropdown-right:hover .fsd-dropdown-content-right {
+    display: block;
+}
+
+.fsd-dropdown-right:hover .fsd-dropbtn-right {
+    background-color: #D47FFF;
+    cursor: pointer;
+}
+
+.fsd-projects-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    justify-content: center;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.fsd-text-box-1{
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 1; 
+    margin-top: 6%;
+}
+
+.fsd-grid-div-1{
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 2/4;
+    background-image: url(/public/full_stack_development/rehab.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 80%;
+    border-style: solid;
+    height: 50vh;
+}
+
+.fsd-grid-div-1:hover{
+    animation: shake 500ms infinite;
+    animation-timing-function: linear;
+}
+
+.fsd-text-box-2{
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 1; 
+    margin-top: 6%;
+}
+
+.fsd-grid-div-2{
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 2/4;
+    background-image: url(/public/full_stack_development/MERN_App_Moment.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 0%;
+    border-style: solid;
+    height: 50vh;
+}
+
+.fsd-grid-div-2:hover{
+    animation: shake 500ms infinite;
+    animation-timing-function: linear;
+}
+
+.fsd-text-box-3{
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 4; 
+}
+
+.fsd-grid-div-3{
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 5/8;
+    background-image: url(/public/full_stack_development/java.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid;
+    height: 50vh;
+}
+
+.fsd-grid-div-3:hover{
+    animation: shake 500ms infinite;
+    animation-timing-function: linear;
+}
+
+.fsd-text-box-4{
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 4; 
+}
+
+.fsd-grid-div-4{
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 5/8;
+    background-image: url(/public/full_stack_development/js_nn.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 5%;
+    border-style: solid;
+    height: 50vh;
+}
+
+.fsd-grid-div-4:hover{
+    animation: shake 500ms infinite;
+    animation-timing-function: linear;
+}
+
+.fsd-text-box-5{
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 8; 
+}
+
+.fsd-grid-div-5{
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 9/12;
+    background-image: url(/public/full_stack_development/html_css.png);
+    background-size: cover;
+    border-style: solid;
+    height: 50vh;
+}
+
+.fsd-grid-div-5:hover{
+    animation: shake 500ms infinite;
+    animation-timing-function: linear;
+}
+
+.fsd-text-box-6{
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 8; 
+}
+
+.fsd-grid-div-6{
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 9/12;
+    background-image: url(/public/full_stack_development/Django_Polls_Moment.jpg); 
+    background-size: cover;
+    border-style: solid;
+    height: 50vh;
+}
+
+.fsd-grid-div-6:hover{
+    animation: shake 500ms infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes shake {
+    0% { transform: rotate(0.5deg); }
+    50% { transform: rotate(-0.5deg); }
+    100% { transform: rotate(0.5deg); }
+  }
+
+.fsd-descriptions{
+    text-align: center;
+    text-shadow: 2px 2px #D47FFF;
+}
+
+.fsd-images-href {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.fsd-textBlock{
+    font-size: 15px;
+    margin-top: 0;
+}
+
+h3 {
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    font-size: calc(1rem + 1vw);
+    margin-bottom: 0;
+}

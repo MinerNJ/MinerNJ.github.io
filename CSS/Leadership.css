@@ -1,0 +1,249 @@
+@media all and (max-width: 700px) {
+    article {
+        grid-column: 1 / 4;
+    }
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+}
+
+.ls-background-div {
+    background-image: linear-gradient(to right, #f11712, white, #0099f7); 
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.ls-dropbtn {
+    background-color: #0099f7;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+}
+
+.ls-dropdown {
+    position: fixed;
+    display: inline-block;
+    left: 0%;
+    z-index: 1;
+}
+
+.ls-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0099f7;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 25px;
+}
+
+.ls-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.ls-dropdown-content a:hover {
+    background-color: #ddd;
+    border-radius: 25px;
+}
+
+.ls-dropdown:hover .ls-dropdown-content {
+    display: block;
+}
+
+.ls-dropdown:hover .ls-dropbtn {
+    background-color: #0099f7;
+    cursor: pointer;
+}
+
+
+.ls-dropbtn-right {
+    background-color: #f11712;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+
+}
+
+.ls-dropdown-right {
+    position: fixed;
+    display: inline-block;
+    right: 0%;
+    z-index: 1;
+}
+
+.ls-dropdown-content-right {
+    display: none;
+    position: relative;
+    background-color: #f11712;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 25px;
+}
+
+.ls-dropdown-content-right a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.ls-dropdown-content-right a:hover {
+    background-color: #ddd;
+    border-radius: 25px;
+}
+
+.ls-dropdown-right:hover .ls-dropdown-content-right {
+    display: block;
+}
+
+.ls-dropdown-right:hover .ls-dropbtn-right {
+    background-color: #f11712;
+    cursor: pointer;
+}
+
+.ls-projects-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    justify-content: center;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.ls-text-box-1{
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 1;  
+    margin-top: 6%;
+}
+
+.ls-grid-div-1{
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 2/4;
+    background-image: url(/public/leadership/Miner_Honorable_Discharge.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 25.5%;
+    border-style: solid;
+    height: 50vh;
+}
+
+.ls-grid-div-1:hover{
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+
+.ls-text-box-2{
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 1; 
+    margin-top: 6%;
+}
+
+.ls-grid-div-2{
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 2/4; 
+    background-image: url(/public/leadership/AWS_Learning.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 85%;
+    border-style: solid;
+    height: 50vh;
+}
+
+.ls-grid-div-2:hover{
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+
+.ls-text-box-3{
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 4; 
+}
+
+.ls-grid-div-3{
+    overflow: hidden;
+    grid-column: 1;
+    grid-row: 5/8; 
+    background-image: url(/public/leadership/Triggrcon.jpg);
+    background-position-y: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: solid;
+    height: 50vh;
+}
+
+.ls-grid-div-3:hover{
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+
+.ls-text-box-4{
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 4; 
+}
+
+.ls-grid-div-4{
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 5/8; 
+    background-image: url(/public/leadership/Miner_NAM.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 4%;
+    border-style: solid;
+    height: 50vh;
+}
+
+.ls-grid-div-4:hover{
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+
+.ls-descriptions1{
+    text-align: center;
+    text-shadow: 2px 2px #0099f7;
+}
+
+.ls-descriptions2{
+    text-align: center;
+    text-shadow: 2px 2px #f11712;
+}
+
+.ls-images-href {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.ls-textBlock{
+    font-size: 15px;
+    margin-top: 0;
+}
+
+h3 {
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    font-size: calc(1rem + 1vw);
+    margin-bottom: 0;
+}
+

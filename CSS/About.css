@@ -1,0 +1,226 @@
+@media all and (max-width: 700px) {
+    article {
+        grid-column: 1 / 4;
+    }
+}
+
+body{
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+}
+
+.about-background-div{
+    background-image: url("/public/backgrounds/Ohio_House.jpg");
+    background-position: 100% 55%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.about-dropbtn {
+    background-color: rgb(114, 174, 241);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+  }
+  
+  .about-dropdown {
+    position: fixed;
+    display: inline-block;
+    left: 0%;
+  }
+  
+  .about-dropdown-content {
+    display: none;
+    position: relative;
+    background-color: rgb(114, 174, 241);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 25px;
+  }
+  
+  .about-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .about-dropdown-content a:hover {background-color: #ddd; border-radius: 25px;}
+  .about-dropdown:hover .about-dropdown-content {display: block;}
+  .about-dropdown:hover .about-dropbtn {background-color: rgb(114, 174, 241);}
+
+
+  .about-dropbtn-right {
+    background-color: rgb(114, 174, 241);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+  }
+  
+  .about-dropdown-right {
+    position: fixed;
+    display: inline-block;
+    right: 0%;
+  }
+  
+  .about-dropdown-content-right {
+    display: none;
+    position: relative;
+    background-color: rgb(114, 174, 241);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 25px;
+  }
+  
+  .about-dropdown-content-right a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .about-dropdown-content-right a:hover {background-color: #ddd; border-radius: 25px;}
+  .about-dropdown-right:hover .about-dropdown-content-right {display: block;}  
+  .about-dropdown:hover .about-dropbtn {background-color: rgb(114, 174, 241);}
+
+  .rw-wrapper{
+	width: 80%;
+	position: relative;
+	margin: 110px auto 0 auto;
+	font-family: 'Bree Serif';
+}
+
+.rw-sentence{
+	margin: 0;
+	text-align: left;
+    text-shadow: 3px 1px black;
+    padding-top: 300px;
+    padding-right: 400px;
+}
+
+.rw-sentence span{
+	color: white;
+	white-space: nowrap;
+	font-size: 200%;
+	font-weight: normal;
+}
+
+.rw-words{
+	display: inline;
+    text-indent: 10px;
+}
+
+.rw-words span{
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	width: 100%;
+    color: white;
+    max-width: 40%;
+}
+
+
+.rw-words-1 span{
+	animation: rotateWordsFirst 48s linear infinite 0s;
+}
+.rw-words-2 span{
+    animation: rotateWordsSecond 48s linear infinite 0s;
+    filter: brightness(2);
+}
+.rw-words span:nth-child(2) { 
+    animation-delay: 3s; 
+	text-decoration: white;
+}
+.rw-words span:nth-child(3) { 
+    animation-delay: 6s; 
+	text-decoration: white;
+}
+.rw-words span:nth-child(4) { 
+    animation-delay: 9s; 
+	text-decoration: white;
+}
+.rw-words span:nth-child(5) { 
+    animation-delay: 12s; 
+	text-decoration: white;
+}
+.rw-words span:nth-child(6) {  
+    animation-delay: 15s; 
+	text-decoration: white;
+}
+
+.rw-words span:nth-child(7) {  
+    animation-delay: 18s; 
+	text-decoration: white;
+}
+
+.rw-words span:nth-child(8) {  
+    animation-delay: 21s; 
+	text-decoration: white;
+}
+
+.rw-words span:nth-child(9) {  
+    animation-delay: 24s; 
+	text-decoration: white;
+}
+
+.rw-words span:nth-child(10) {  
+    animation-delay: 27s; 
+	text-decoration: white;
+}
+
+.rw-words span:nth-child(11) {  
+    animation-delay: 30s; 
+	text-decoration: white;
+}
+
+.rw-words span:nth-child(12) {  
+    animation-delay: 33s; 
+	text-decoration: white;
+}
+
+.rw-words span:nth-child(13) {  
+    animation-delay: 36s; 
+	text-decoration: white;
+}
+
+.rw-words span:nth-child(14) {  
+    animation-delay: 39s; 
+	text-decoration: white;
+}
+
+.rw-words span:nth-child(15) {  
+    animation-delay: 42s; 
+    text-decoration: white;
+}
+
+.rw-words span:nth-child(16) {  
+    animation-delay: 45s; 
+	text-decoration: white;
+}
+
+@keyframes rotateWordsFirst {
+    0% { opacity: 1; animation-timing-function: ease-in; height: 0px; }
+    4% { opacity: 1; height: 60px; } /*how fast word comes in*/
+    6% { opacity: 1; height: 60px; }
+	9% { opacity: 0; height: 60px; }
+    100% { opacity: 0; }
+}
+
+@keyframes rotateWordsSecond {
+    0% { opacity: 1; animation-timing-function: ease-in; width: 0px; }
+    4% { opacity: 1; width: 0px; }
+	6% { opacity: 1; width: 100%; }
+    9% { opacity: 0; width: 100%; }
+    100% { opacity: 0; }
+}

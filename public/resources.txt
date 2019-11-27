@@ -1,0 +1,16 @@
+website resources:
+
+w3schools.com
+https://tympanus.net/codrops/2012/04/17/rotating-words-with-css-animations/
+https://worldvectorlogo.com/
+https://www.somacon.com/p142.php
+https://codepen.io/Digitango/pen/YQQBXR
+https://css-tricks.com/solved-with-css-colorizing-svg-backgrounds/
+https://css-tricks.com/practical-css-scroll-snapping/
+http://kenyzachelin.fr/
+https://fonts.google.com/
+https://www4.lunapic.com/editor/
+Photo by Johannes Plenio on Unsplash
+Photo by Fotis Fotopoulos on Unsplash
+Photo by Luke Chesser on Unsplash
+Photo by rob walsh on Unsplash
