@@ -121,6 +121,7 @@ section {
   background-position: 100% 50%;
   background-size: cover;
   background-repeat: no-repeat;
+  hyphens: auto;
 }
 
 .section2 {
@@ -240,7 +241,6 @@ p{
   animation: an 1s ease-out 1 both;
   display: inline-block;
   color: white;
-  overflow-wrap: break-word;
 }
 
 @keyframes an{
