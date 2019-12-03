@@ -110,6 +110,10 @@ html {
   scroll-snap-type: y mandatory;
 }
 
+a{
+  text-decoration: none;
+}
+
 section {
   border-bottom: 1px solid white;
   padding: 1rem;
@@ -121,7 +125,6 @@ section {
   background-position: 100% 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  hyphens: auto;
 }
 
 .section2 {
@@ -132,7 +135,7 @@ section {
   text-align: center;
   position: relative;
   background-image: url("/public/backgrounds/blurDataPic.jpg");
-  background-position: 100% 100%;
+  background-position: 100% 180%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -229,19 +232,21 @@ h1 {
 }
 
 p{
-  width: 70%;
+  width: 80%;
   font-size: 30px;
   display: block;
   text-align: center;
 }
 
-.char{
+#text{
   font-size: 40px;
-  height: 40px;
-  animation: an 1s ease-out 1 both;
+  padding-top: 60px;
+  animation: an 3s ease-out 1 both;
   display: inline-block;
   color: white;
 }
+
+
 
 @keyframes an{
   from{
