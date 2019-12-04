@@ -135,7 +135,7 @@ section {
   text-align: center;
   position: relative;
   background-image: url("/public/backgrounds/blurDataPic.jpg");
-  background-position: 100% 180%;
+  background-position: 100% 100%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -189,6 +189,7 @@ h1 {
   left: 0;
   font-size: calc(1rem + 3vw);
   height: 100%;
+  text-shadow: black 2px 2px 2px;
 }
 
 .center{
@@ -244,6 +245,7 @@ p{
   animation: an 3s ease-out 1 both;
   display: inline-block;
   color: white;
+  text-shadow: black 2px 2px 2px;
 }
 
 
